@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="kendoEnv">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kendo Controls Test Environment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="/" /> -->
+    <link rel="stylesheet" href="node_modules/@progress/kendo-v2019.1.115/styles/kendo.common-material.min.css">
+    <link rel="stylesheet" href="node_modules/@progress/kendo-v2019.1.115/styles/kendo.materialblack.min.css">
+    <link rel="stylesheet" href="node_modules/@progress/kendo-v2019.1.115/styles/kendo.material.mobile.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/@progress/kendo-v2019.1.115/js/jszip.min.js"></script>
+    <script src="node_modules/@progress/kendo-v2019.1.115/js/kendo.all.min.js"></script>
+    <script src="www/app.module.js"></script>
+    <script src="www/app.module.directives.js"></script>
+    <!-- <script src="/www/app.config.js"></script> -->
+    <script src="www/app.controller.js"></script>
+    <script src="www/app.newkendogrid.directive.js"></script>
+
+</head>
+<body ng-controller="AppController as ctrl">
+    <new-wrapper-kendo-grid options="ctrl.gridOptions"></new-wrapper-kendo-grid>
+</body>
+</html>
