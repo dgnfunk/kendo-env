@@ -1,0 +1,9 @@
+<div class="grid-container">
+    <!-- k-ng-delay waits until the kendoGridOptions object is finally populated -->
+    <kendo-grid k-scope-field="grid.instance" k-options="grid.options" k-ng-delay="grid.options"></kendo-grid>
+    <kendo-button on-click="grid.changePage()" class="k-primary">Change page 600</kendo-button>
+    <kendo-button on-click="grid.changePageRow()" class="k-primary">Change page and focus</kendo-button>
+    <kendo-button on-click="grid.filter()" class="k-primary">Filter the information to rows 5900-6000</kendo-button>
+    <kendo-button on-click="grid.addRow()" class="k-primary">Add new row on new page</kendo-button>
+    <kendo-button on-click="grid.change()" class="k-primary">Change data on a new page</kendo-button>
+</div>
